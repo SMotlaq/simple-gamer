@@ -10,7 +10,7 @@ First of all, we have to grab the screen image in order to be able to work with 
 original_image = np.array(ImageGrab.grab(bbox=(380,140,445,520)))
 ```
 
-The ```bbox``` parameter sets the coordination thar you want to grab. The origin is the top-left corner of your screen.
+The ```bbox``` parameter sets the coordination that you want to grab. The origin is the top-left corner of your screen.
 
 Then by passing the ```original_image``` variable to ```process_img(...)```, we start processing.
 
