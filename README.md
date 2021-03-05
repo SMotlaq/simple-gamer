@@ -20,11 +20,11 @@ The result of this step:
 
 The prosecc contains 4 steps:
 ## 1- Grayscale
-Converts the colorfull image to a gray-scale image:
+Converts the colorfull image to a grayscale image:
 ```python
 processed_img = cv2.cvtColor(original_image, cv2.COLOR_BGR2GRAY)
 ```
-![gray-scaled](git_images/110_1_grayScaled.jpg?raw=true "Gray scale")
+![grayscaled](git_images/110_1_grayScaled.jpg?raw=true "Grayscale")
 
 ## 2- Threshold
 Applys a threshold to the image. If a pixel is more than 250 it will be replaced with 255. Otherwise will be replaced with 0.
