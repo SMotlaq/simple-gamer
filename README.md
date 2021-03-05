@@ -56,7 +56,7 @@ ret, processed_img = cv2.threshold(processed_img, 50, 255, cv2.THRESH_BINARY)
 ![final](git_images/110_4_secondThreshold.jpg?raw=true "Final")
 
 # Deciding when to click 
-This game is so simple and easy. If the ball reach to a certain area you have to click on the screen. I used a summation of pixel colors. If the summation was greater than 10*255 it means the ball is in the right position. So click!
+This game is so simple and easy. If the ball reach to a certain area you have to click on the screen. I used a summation of pixel colors. If the summation was greater than 10*255 it means the ball is at the right position. So click!
 
 - - - -
 ## Contact
