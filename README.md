@@ -4,7 +4,7 @@
  Watch [the video](https://youtu.be/ENYo6G_4h3w) on YouTube
 
 # Image processing steps
-First of all, we have to grab the screen image to work with:
+First of all, we have to grab the screen image in order to be able to work with it:
 
 ```python
 original_image = np.array(ImageGrab.grab(bbox=(380,140,445,520)))
