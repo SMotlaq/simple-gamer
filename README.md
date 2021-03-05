@@ -34,7 +34,7 @@ ret, processed_img = cv2.threshold(processed_img, 250, 255, cv2.THRESH_BINARY)
 ![first-threshold](git_images/110_2_firstThreshold.jpg?raw=true "First threshold")
 
 ## 3- Convolutional filter
-We know if a signal will be convolved to itself, the output of this convlution has tha maximum possible value. So in this step I convolve the screen image to a simple white circle. After this I expect to see some white blured areas in the ball position.
+We know if a signal will be convolved to itself, the output of this convlution has tha maximum possible value. So in this step I convolve the screen image to a simple white circle. After this I expect to see some white blured areas at the ball position.
 ```python
 path = os.getcwd()
 kernel_path   = os.path.join(path, 'cir.png')
@@ -46,7 +46,7 @@ processed_img = cv2.filter2D(processed_img, -1, kernel)
 ```
 ![convolution](git_images/110_3_convolution.jpg?raw=true "Convolutional filter")
 
-As you see, a halo exists in the ball position.
+As you see, a halo exists at the ball position.
 
 ## 4- Another threshold
 Still we aren't sure about the exact ball position because of the other stuffs in the screen like that big "GOAL" text and colored papers. So I applied another threshold to the image: 
