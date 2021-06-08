@@ -3,6 +3,15 @@
  
  Watch [the video](https://youtu.be/ENYo6G_4h3w) on YouTube
 
+# Donation
+Is it helpful?
+
+<p align="left">
+  <a href="http://smotlaq.ir/LQgQF">
+  <img src="https://raw.githubusercontent.com/SMotlaq/LoRa/master/bmc.png" width="200" alt="Buy me a Coffee"/>
+  </a>
+</p>
+
 # Image processing steps
 First of all, we have to grab the screen image in order to be able to work with it:
 
